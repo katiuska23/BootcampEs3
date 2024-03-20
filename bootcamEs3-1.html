@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Pseint pseudocode blog</title>
+        <<link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div id="container">
+            <div id="cabecera">
+                PseInt Hiperblog
+                <span id="tagline">Tu blog de Pseudocodigos</span>
+            </div>
+            <div id="post">
+                <h1>Pseint pseudocode blog</h1>
+                <p>Crear un array para almacenar las calificaciones de 5 alumnos en un curso ingresando por consola, sacando.</p> <br>
+                <p2>
+    
+                    Funcion P <- promedio(n,suma) <br>
+                    P <- suma/n <br>
+                FinFuncion <br>
+                
+                Algoritmo Calificaciones <br>
+                    Definir nom Como Cadena <br>
+                    Definir suma, P, c Como Real <br>
+                    suma <- 0 <br>
+                    n <- 5  <br>
+                    Dimensionar nom(n) <br>
+                    Dimensionar calificacion(n) <br>
+                    nom[1] <- 'Ana' <br>
+                    nom[2] <- 'Cesar' <br>
+                    nom[3] <- 'Vale' <br>
+                    nom[4] <- 'Michy' <br>
+                    nom[5] <- 'Jose' <br>
+                    // el usuario debe de ingresar las calificaciones de los alumnos obtenidas en Matematicas
+                    Escribir 'Ingresar calificacion de matematicas a los siguientes alumnos:' <br>
+                    Para i<-1 Hasta n Hacer <br>
+                        Escribir nom[i] <br>
+                        Escribir 'Ingrese el calificacion de ', nom[i], ' ' <br>
+                        Leer calificacion[i] <br>
+                        suma <- suma+calificacion[i] <br>
+                    FinPara <br>
+                    P <- promedio(n,suma) <br>
+                    Escribir 'El promedio del  curso de matematicas  es: ', P <br>
+                    Escribir '------------------------------------------------------------' <br>
+                    // modificar calificacion de alumno <br>
+                    Escribir 'Seleccione alumno al cual se le modificar su calificacion' <br>
+                    Leer bus <br>
+                    Para i<-1 Hasta n Hacer <br>
+                        Escribir ' Alumno ', nom[i], ' obtuvo ', calificacion[i], ' en matemática' <br>
+                        Si bus=nom[i] Entonces <br>
+                            Escribir '' <br>
+                            Escribir ' Ingrese nueva calificacion' <br>
+                            Leer calificacion[i] <br>
+                        FinSi <br>
+                    FinPara <br>
+                FinAlgoritmo <br>
+                </p2>
+            </div>
+        </div>
+       
+    </body>
